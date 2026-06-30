@@ -1,0 +1,36 @@
+# Compiled output
+/dist
+/build
+/node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables — NIGDY nie commitujemy realnych sekretów
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea
+.vscode/*
+!.vscode/extensions.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+/coverage
+/.nyc_output
+
+# TypeScript
+*.tsbuildinfo
+
+# Docker volumes (jeśli trzymane lokalnie poza compose)
+docker-data/
